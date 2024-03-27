@@ -1,8 +1,9 @@
 {
   "name": "fastspring-node-sdk",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "license": "MIT",
   "author": "Dominic Garms",
+  "repository": "https://github.com/dohomi/fastspring-node-sdk",
   "packageManager": "yarn@3.5.0",
   "keywords": [
     "node",
