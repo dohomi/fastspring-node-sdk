@@ -4,6 +4,11 @@
 
 This project is a ready to use [Fastspring API](https://developer.fastspring.com/reference/getting-started-with-your-api) for NodeJS environment. It uses [api](https://api.readme.dev/docs/getting-started) and exports the ready to use .js and .d.ts files for you.
 
+The current build version is:
+```
+@fastspring/v1.0#2kzjaw33clr4j7f6d
+```
+
 #### Installation
 
 ```console
