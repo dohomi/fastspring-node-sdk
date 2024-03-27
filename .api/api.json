@@ -1,0 +1,11 @@
+{
+  "version": "1.0",
+  "apis": [
+    {
+      "identifier": "fastspring",
+      "source": "@fastspring/v1.0#2kzjaw33clr4j7f6d",
+      "integrity": "sha512-1TId5DJ6SujirAV45mCR7QunYH+oSgJWbq83u7kTWHEuEIpfiSCLSIGlZrIGHA2+cdh4UZtm0fW+IZSSYXEBMg==",
+      "installerVersion": "6.1.1"
+    }
+  ]
+}

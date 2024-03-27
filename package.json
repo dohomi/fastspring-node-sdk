@@ -1,0 +1,28 @@
+{
+  "name": "fastspring-node-sdk",
+  "version": "1.0.6",
+  "license": "MIT",
+  "author": "Dominic Garms",
+  "packageManager": "yarn@3.5.0",
+  "keywords": [
+    "node",
+    "fastspring"
+  ],
+  "source": ".api/apis/fastspring/index.ts",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "scripts": {
+    "fetchApi": "api install @fastspring/v1.0#2kzjaw33clr4j7f6d",
+    "build": "rm -rf dist && tsup .api/apis/fastspring/index.ts --format cjs  --dts"
+  },
+  "devDependencies": {
+    "api": "^6.1.1",
+    "tsup": "^8.0.2",
+    "typescript": "^5.4.3"
+  },
+  "dependencies": {
+    "api": "^6.1.1",
+    "json-schema-to-ts": "^2.8.0-beta.0",
+    "oas": "^20.10.3"
+  }
+}
