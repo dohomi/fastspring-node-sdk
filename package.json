@@ -1,6 +1,6 @@
 {
   "name": "fastspring-node-sdk",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "license": "MIT",
   "author": "Dominic Garms",
   "repository": "https://github.com/dohomi/fastspring-node-sdk",
@@ -12,9 +12,13 @@
   "source": ".api/apis/fastspring/index.ts",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
+  "module": "dist/index.esm.js",
+  "files": [
+    "dist/**"
+  ],
   "scripts": {
     "fetchApi": "api install @fastspring/v1.0#2kzjaw33clr4j7f6d",
-    "build": "rm -rf dist && tsup .api/apis/fastspring/index.ts --format cjs  --dts"
+    "build": "rm -rf dist && tsup .api/apis/fastspring/index.ts --format cjs,esm  --dts"
   },
   "devDependencies": {
     "api": "^6.1.1",
